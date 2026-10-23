@@ -1,4 +1,4 @@
-{% set version = "0.3.78" %}
+{% set version = "0.3.80" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/salso_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/salso/salso_{{ version }}.tar.gz
-  sha256: 37ab3deb7679d6fbd3d37d93f1226fd4d1d634512e70761c65d1d546a009f33b
+  sha256: 2a119be47e1edf2ca548da17c634f9ef85bfbf066b5c31f83d3c9ae9203f09be
 
 build:
   number: 0
